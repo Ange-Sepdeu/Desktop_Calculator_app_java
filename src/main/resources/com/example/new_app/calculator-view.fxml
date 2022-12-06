@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="333.0" prefWidth="302.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.new_app.CalculatorController">
+   <children>
+      <TextField fx:id="display" alignment="CENTER_RIGHT" disable="true" layoutX="16.0" layoutY="21.0" prefHeight="33.0" prefWidth="269.0" text="0" />
+      <Button fx:id="deleteAll" layoutX="16.0" layoutY="74.0" mnemonicParsing="false" onAction="#getDeleteAll" prefHeight="25.0" prefWidth="52.0" text="AC" />
+      <Button fx:id="delete" layoutX="87.0" layoutY="74.0" mnemonicParsing="false" onAction="#getDeleteOne" prefHeight="25.0" prefWidth="52.0" text="DEL" />
+      <Button fx:id="dot" layoutX="162.0" layoutY="74.0" mnemonicParsing="false" onAction="#addDot" prefHeight="25.0" prefWidth="52.0" text="." />
+      <Button fx:id="six" layoutX="162.0" layoutY="162.0" mnemonicParsing="false" prefHeight="25.0" onAction="#getSix" prefWidth="52.0" text="6" />
+      <Button fx:id="three" layoutX="162.0" layoutY="120.0" mnemonicParsing="false" onAction="#getThree" prefHeight="25.0" prefWidth="52.0" text="3" />
+      <Button fx:id="five" layoutX="87.0" layoutY="162.0" mnemonicParsing="false" prefHeight="25.0" onAction="#getFive" prefWidth="52.0" text="5" />
+      <Button fx:id="four" layoutX="16.0" layoutY="162.0" mnemonicParsing="false" onAction="#getFour" prefHeight="25.0" prefWidth="52.0" text="4" />
+      <Button fx:id="two" layoutX="87.0" layoutY="120.0" mnemonicParsing="false" onAction="#getTwo" prefHeight="25.0" prefWidth="52.0" text="2" />
+      <Button fx:id="one" layoutX="16.0" layoutY="120.0" mnemonicParsing="false" onAction="#getOne" prefHeight="25.0" prefWidth="52.0" text="1" />
+      <Button fx:id="nine" layoutX="162.0" layoutY="207.0" mnemonicParsing="false" onAction="#getNine" prefHeight="25.0" prefWidth="52.0" text="9" />
+      <Button fx:id="eight" layoutX="87.0" layoutY="207.0" mnemonicParsing="false" prefHeight="25.0" onAction="#getEight" prefWidth="52.0" text="8" />
+      <Button fx:id="seven" layoutX="16.0" layoutY="207.0" mnemonicParsing="false" prefHeight="25.0" onAction="#getSeven" prefWidth="52.0" text="7" />
+      <Button fx:id="minus" layoutX="162.0" layoutY="248.0" mnemonicParsing="false" prefHeight="25.0" onAction="#addMinus" prefWidth="52.0" text="-" />
+      <Button fx:id="equal" layoutX="87.0" layoutY="248.0" mnemonicParsing="false" onAction="#Result" prefHeight="25.0" prefWidth="52.0" text="=" />
+      <Button fx:id="zero" layoutX="16.0" layoutY="248.0" mnemonicParsing="false" onAction="#getZero" prefHeight="25.0" prefWidth="52.0" text="0" />
+      <Button fx:id="times" layoutX="235.0" layoutY="248.0" mnemonicParsing="false" onAction="#Times" prefHeight="25.0" prefWidth="52.0" text="*" />
+      <Button fx:id="division" layoutX="235.0" layoutY="207.0" onAction="#Division"  mnemonicParsing="false" prefHeight="25.0" prefWidth="52.0" text="/" />
+      <Button fx:id="plus" layoutX="235.0" layoutY="162.0" mnemonicParsing="false" onAction="#Addition" prefHeight="25.0" prefWidth="52.0" text="+" />
+      <Button fx:id="ln" layoutX="235.0" onAction="#NatLog" layoutY="120.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="52.0" text="ln()" />
+      <Button fx:id="e" layoutX="235.0" onAction="#Euler" layoutY="74.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="52.0" text="e" />
+      <Button fx:id="log" onAction="#Log" layoutX="16.0" layoutY="290.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="52.0" text="log()" />
+      <Button fx:id="tan" layoutX="235.0" layoutY="290.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="52.0" text="tan()" />
+      <Button fx:id="cos" layoutX="162.0" layoutY="290.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="52.0" text="cos()" />
+      <Button fx:id="sin" layoutX="87.0" layoutY="290.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="52.0" text="sin()" />
+      <Button fx:id="plusMinus" onAction="#AddSign" layoutX="235.0" layoutY="330.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="52.0" text="+/-" />
+   </children>
+</AnchorPane>
